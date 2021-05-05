@@ -125,9 +125,17 @@ body {
   top: 0px;
   left: 0px;
   width: 100%;
-  background: #49535b;
-  color: lightgray;
+  background: #000;
+  color: #FFF;
   padding-top: 15px;
+
+color: #FFFFFF;
+background: #000;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+color: #FFFFFF;
+background: #000;
+
+
 }
 .header h3 {
   margin: 0px;
@@ -454,6 +462,10 @@ box-shadow: 0px 0px 7px 6px rgba(10,78,196,1);
 
 
 
+
+.h27 {
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 0px 6px 11px rgba(200,206,198,0.11);
+}
 
 
 
