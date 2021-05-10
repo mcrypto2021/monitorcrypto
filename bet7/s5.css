@@ -1,0 +1,210 @@
+button1 {
+	box-shadow:inset 0px 2px 0px 0px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:5px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 16px;
+	text-decoration:none;
+	text-shadow:0px -2px 0px #2f6627;
+}
+button1:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+button1:active {
+	position:relative;
+	top:1px;
+}
+
+    .loader {
+  height: 50px;
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backface-visibility: hidden;
+}
+
+.loader__element {
+  border-radius: 100px;
+  height: 0%;
+  width: 10px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  animation: loading 500ms infinite alternate;
+  animation-timing-function: ease;
+}
+.loader__element:nth-child(1) {
+  left: 0px;
+  animation-delay: 59ms;
+  background-color: #f150db;
+}
+
+.loader__element {
+  border-radius: 100px;
+  height: 0%;
+  width: 10px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  animation: loading 500ms infinite alternate;
+  animation-timing-function: ease;
+}
+.loader__element:nth-child(2) {
+  left: 12px;
+  animation-delay: 119ms;
+  background-color: #ef39d6;
+}
+
+.loader__element {
+  border-radius: 100px;
+  height: 0%;
+  width: 10px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  animation: loading 500ms infinite alternate;
+  animation-timing-function: ease;
+}
+.loader__element:nth-child(3) {
+  left: 24px;
+  animation-delay: 179ms;
+  background-color: #ed21d1;
+}
+
+.loader__element {
+  border-radius: 100px;
+  height: 0%;
+  width: 10px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  animation: loading 500ms infinite alternate;
+  animation-timing-function: ease;
+}
+.loader__element:nth-child(4) {
+  left: 36px;
+  animation-delay: 239ms;
+  background-color: #e312c6;
+}
+
+.loader__element {
+  border-radius: 100px;
+  height: 0%;
+  width: 10px;
+  top: 50%;
+  position: top;
+  transform: translateY(-50%);
+  animation: loading 500ms infinite alternate;
+  animation-timing-function: ease;
+}
+.loader__element:nth-child(5) {
+  left: 48px;
+  animation-delay: 299ms;
+  background-color: #cb10b2;
+}
+
+.loader__element {
+  border-radius: 100px;
+  height: 0%;
+  width: 10px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  animation: loading 500ms infinite alternate;
+  animation-timing-function: ease;
+}
+.loader__element:nth-child(6) {
+  left: 60px;
+  animation-delay: 359ms;
+  background-color: #b46888;
+}
+
+.loader__element {
+  border-radius: 100px;
+  height: 0%;
+  width: 10px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  animation: loading 500ms infinite alternate;
+  animation-timing-function: ease;
+}
+.loader__element:nth-child(7) {
+  left: 72px;
+  animation-delay: 419ms;
+  background-color: #008888;
+}
+
+.loader__element {
+  border-radius: 100px;
+  height: 0%;
+  width: 10px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  animation: loading 500ms infinite alternate;
+  animation-timing-function: ease;
+}
+.loader__element:nth-child(8) {
+  left: 84px;
+  animation-delay: 479ms;
+  background-color: #00880a;
+}
+
+.loader__element {
+  border-radius: 100px;
+  height: 0%;
+  width: 10px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  animation: loading 500ms infinite alternate;
+  animation-timing-function: ease;
+}
+.loader__element:nth-child(9) {
+  left: 96px;
+  animation-delay: 539ms;
+  background-color: #0087ff;
+}
+
+.loader__element {
+  border-radius: 100px;
+  height: 0%;
+  width: 10px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  animation: loading 500ms infinite alternate;
+  animation-timing-function: ease;
+}
+.loader__element:nth-child(10) {
+  left: 108px;
+  animation-delay: 599ms;
+  background-color: #0088ff;
+}
+
+@keyframes loading {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+
+.scroller {
+ 
+  overflow-y: scroll;
+  scrollbar-width:auto ;
+}
