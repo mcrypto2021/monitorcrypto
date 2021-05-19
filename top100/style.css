@@ -1,0 +1,45 @@
+html,body {
+    margin: 0;
+    padding: 0;
+
+  background: linear-gradient(to right, #330088, #110088);
+    color:#fff;
+      font-size: 155%;
+
+
+}
+
+
+h2 {
+  margin-top: 0 !important;
+}
+
+#crypto-table {
+    margin-top: 10%;
+}
+
+ul {
+    margin-top: 50px;
+
+    color:#fff;
+
+
+}
+
+.active {
+    background-color: #fff ;
+    color:#000;
+}
+
+
+
+.bold {
+    font-weight: 900;
+
+      font-size: 250%;
+
+ 
+
+}
+
+
