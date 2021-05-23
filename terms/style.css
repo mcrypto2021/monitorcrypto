@@ -3,11 +3,18 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   line-height: 1.6em;
-  font-weight: 300;
-  color: #555;
+  font-weight: 400;
+  color: #000;
+
+    background: linear-gradient(to right, #391088, #110088);
+   
+
+  text-align: justify;
+  text-justify: inter-word;
+
 }
 
 p {
@@ -23,12 +30,31 @@ header {
 .pageSubTitle {
   font-family: 'Titillium', sans-serif;
   text-transform: uppercase;
-  color: #333;
+  color: #8ddee1;
 }
 
 .pageTitle {
-  color: #FF7600;
+  color: #FF0000 ;
 }
+
+.title1 {
+  color: #000088 ;
+
+}
+
+
+.red {
+  color: #FF0000 ;
+}
+
+
+.bold {
+
+font-weight: bold;
+
+}
+
+
 
 .pageTitle {
   font-size: 2em;
